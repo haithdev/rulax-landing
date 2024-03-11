@@ -1,0 +1,68 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  font-family: TitleFont;
+  src: url("/static/assets/font/9Slide07SVN-Hogfish.ttf");
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  font-family: ContentFont;
+  src: url("/static/assets/font/9Slide07IcielAltus.ttf");
+}
+//
+$main-color: rgba(32, 168, 216, 1);
+$progress-color: blue;
+$white-color: #fff;
+$bluebell: #979fd0;
+$primary-color: #c0eaf5;
+$PRIMAMY-COLOR: #20113a;
+$BLUR-PRIMARY-COLOR: rgba(32, 17, 58, 0.8);
+$YELLOW-COLOR: #ffc943;
+$YELLOW-SENCOND-COLOR: #efd4b9;
+
+/*  */
+$SHADOW: 4px 3px #22183a;
+//
+$fz20: 20px;
+$fz16: 16px;
+$fz35: 35px;
+
+:root {
+  --text-color: #333333;
+  --body-background: #f9f9fb;
+  --text-secondary-color: #8f8f8f;
+  --primary-color: #dd0115;
+  --secondary-color: #fbd947;
+  --price-color: #ed3324;
+  --header-background: #efefef;
+  --header-color: #181818;
+  --subheader-background: #ffffff;
+  --subheader-color: #2f4858;
+  --label-background: #ed3324;
+  --label-color: #ffffff;
+  --footer-bg: #ffffff;
+  --footer-color: #333333;
+  --show-loadmore: none !important;
+  --order-loadmore: -1 !important;
+  --sale-pop-color: #e40303;
+  --buynow-bg: #f60000;
+  --buynow-text-color: #ffffff;
+  --addcart-bg: #fb2a0b;
+  --addcart-text-color: #ed3324;
+  --cta-color: #ed3324;
+  --coupon-title-color: #fd545b;
+  --coupon-button-color: #fd545b;
+  --col-menu: 1;
+  --border-color: #f1f1f1;
+  --link-color: #2f80ed;
+  --coupon-code-background: #fd545b;
+  --countdown-background: #000000;
+  --countdown-color: #ffffff;
+  --process-background: #ffaaaf;
+  --process-color1: #ff424e;
+  --process-color2: #ff424e;
+  --stock-color: #ffffff;
+  --background: rgb(254, 209, 0);
+  --heading-color: #333333;
+}

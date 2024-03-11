@@ -1,0 +1,1839 @@
+.hide {
+  display: none !important;
+}
+
+.rulax-product-reviews-badge {
+  display: flex;
+  align-items: center;
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star i {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star.rulax-product-reviews-heart i.star-on-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star.rulax-product-reviews-heart i.star-off-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star.rulax-product-reviews-heart i.star-half-png {
+  position: relative;
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star.rulax-product-reviews-heart i.star-half-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-badge .rulax-product-reviews-star.rulax-product-reviews-heart i.star-half-png:after {
+  font-family: "FontAwesome";
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  line-height: 1;
+}
+
+.rulax-product-reviews-badge .rulax-product-review-scroll {
+  margin-left: 10px;
+}
+
+.reviews_details_product {
+  display: flex;
+  align-items: center;
+}
+
+.reviews_details_product .danhgiasp {
+  margin-left: 5px;
+}
+
+.btn-new-review {
+  border: 1px solid #08f;
+  background: #08f;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 17px;
+  min-width: 180px;
+}
+
+.btn-new-review:active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-new-review:active:focus,
+.btn-new-review:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn-new-review.btn-new-review-mobile {
+  display: none;
+}
+
+.rulax-product-reviews-form,
+.rulax-review-reply-form {
+  position: relative;
+}
+
+.rulax-product-reviews-form form,
+.rulax-review-reply-form form {
+  margin-bottom: 0;
+}
+
+.rulax-product-reviews-form .title-form,
+.rulax-product-reviews-form h4,
+.rulax-product-reviews-form .review-product-name,
+.rulax-review-reply-form .title-form,
+.rulax-review-reply-form h4,
+.rulax-review-reply-form .review-product-name {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 10px;
+}
+
+.rulax-product-reviews-form h4,
+.rulax-product-reviews-form .review-product-name,
+.rulax-review-reply-form h4,
+.rulax-review-reply-form .review-product-name {
+  font-weight: bold;
+  margin: 0 0 22px;
+}
+
+.rulax-product-reviews-form .bpr-form-message-error,
+.rulax-product-reviews-form .bpr-reply-form-message-error,
+.rulax-review-reply-form .bpr-form-message-error,
+.rulax-review-reply-form .bpr-reply-form-message-error {
+  font-size: 13px;
+  color: #c23527;
+  display: block;
+  line-height: 20px;
+}
+
+.rulax-product-reviews-form .bpr-form-rating,
+.rulax-review-reply-form .bpr-form-rating {
+  text-align: left;
+  margin: 0 0 20px;
+}
+
+.rulax-product-reviews-form .bpr-form-rating .form-group,
+.rulax-review-reply-form .bpr-form-rating .form-group {
+  display: flex;
+  align-items: flex-end;
+}
+
+.rulax-product-reviews-form .bpr-form-rating label,
+.rulax-review-reply-form .bpr-form-rating label {
+  margin: 0 17px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.rulax-product-reviews-form .bpr-form-rating .rulax-product-reviews-star,
+.rulax-review-reply-form .bpr-form-rating .rulax-product-reviews-star {
+  display: flex;
+  line-height: 1;
+  justify-content: center;
+}
+
+.rulax-product-reviews-form .bpr-form-rating .rulax-product-reviews-star i,
+.rulax-review-reply-form .bpr-form-rating .rulax-product-reviews-star i {
+  font-size: 25px;
+  font-style: normal;
+}
+
+.rulax-product-reviews-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-on-png:before,
+.rulax-review-reply-form .bpr-form-rating .rulax-product-reviews-star.rulax-product-reviews-heart i.star-on-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-off-png:before,
+.rulax-review-reply-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-off-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-form .bpr-form-rating .rulax-product-reviews-star.rulax-product-reviews-heart i.star-half-png,
+.rulax-review-reply-form .bpr-form-rating .rulax-product-reviews-star.rulax-product-reviews-heart i.star-half-png {
+  position: relative;
+}
+
+.rulax-product-reviews-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:before,
+.rulax-review-reply-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+.rulax-product-reviews-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:after,
+.rulax-review-reply-form
+  .bpr-form-rating
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:after {
+  font-family: "FontAwesome";
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  line-height: 1;
+}
+
+.rulax-product-reviews-form .bpr-form-contact,
+.rulax-review-reply-form .bpr-form-contact {
+  text-align: left;
+  position: relative;
+}
+
+.rulax-product-reviews-form .bpr-form-contact.no-attachment .form-group__textarea textarea,
+.rulax-review-reply-form .bpr-form-contact.no-attachment .form-group__textarea textarea {
+  height: 178px;
+  border: 1px solid #c4cdd5;
+  border-radius: 5px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group,
+.rulax-review-reply-form .bpr-form-contact .form-group {
+  margin: 0 0 11px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group input,
+.rulax-review-reply-form .bpr-form-contact .form-group input {
+  margin: 0;
+  background: #fff;
+  border: 1px solid #c4cdd5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 13px;
+  width: 100%;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__textarea,
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea {
+  box-sizing: border-box;
+  min-height: 160px;
+  padding: 0;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__textarea .form-group,
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea .form-group {
+  margin: 0;
+  padding: 0;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__textarea .bpr-form-actions,
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea .bpr-form-actions {
+  display: none;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group textarea,
+.rulax-review-reply-form .bpr-form-contact .form-group textarea {
+  background: #fff;
+  border: none;
+  box-sizing: border-box;
+  height: 132px;
+  padding: 16px 13px 0;
+  border: 1px solid #c4cdd5;
+  border-bottom: none;
+  resize: none;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  vertical-align: top;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -14px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-name,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-email,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-phone,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-name,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-email,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-phone,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-form-contact-name,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-form-contact-email,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-form-contact-phone,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-name,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-email,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-phone {
+  width: 100%;
+  margin: 0 0 11px;
+  padding: 0 14px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-email,
+.rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-phone,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-form-contact-email,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-form-contact-phone {
+  width: 50%;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .form-group .bpr-reply-form-review-body,
+.rulax-review-reply-form .bpr-form-contact .form-group .bpr-reply-form-review-body {
+  width: 100%;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach {
+  position: relative;
+  width: 100%;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach label,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach label {
+  display: flex !important;
+  align-items: center;
+  margin: 0;
+  font-size: 16px;
+  color: #969b9f;
+  font-weight: 400;
+  padding: 6px 15px 9px 5px;
+  border: 1px solid #c4cdd5;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 4px;
+  background: #fff;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach label span,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach label span {
+  margin-left: 10px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach label svg,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach label svg {
+  width: 30px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-wrap input.MultiFile-applied,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-wrap input.MultiFile-applied {
+  position: absolute;
+  height: 46px;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  z-index: 9;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list {
+  display: flex;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-remove,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-remove {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  z-index: 9;
+  line-height: 1;
+}
+
+.rulax-product-reviews-form
+  .bpr-form-contact
+  .bpr-file-attach
+  .MultiFile-list
+  .MultiFile-label
+  .MultiFile-remove
+  svg
+  path,
+.rulax-review-reply-form
+  .bpr-form-contact
+  .bpr-file-attach
+  .MultiFile-list
+  .MultiFile-label
+  .MultiFile-remove
+  svg
+  path {
+  fill: #969b9f !important;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label svg,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label svg {
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label svg path,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label svg path {
+  fill: #969b9f;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-label,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-label {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-title,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-title {
+  display: none;
+}
+
+.rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-preview,
+.rulax-review-reply-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-preview {
+  max-width: initial !important;
+  height: 90px;
+  position: relative;
+  max-height: 90px !important;
+}
+
+.rulax-product-reviews-form .bpr-form-review-error,
+.rulax-product-reviews-form .bpr-reply-form-message-error,
+.rulax-review-reply-form .bpr-form-review-error,
+.rulax-review-reply-form .bpr-reply-form-message-error {
+  text-align: left;
+  font-size: 13px;
+}
+
+.rulax-product-reviews-form .bpr-form-review-error p,
+.rulax-product-reviews-form .bpr-reply-form-message-error p,
+.rulax-review-reply-form .bpr-form-review-error p,
+.rulax-review-reply-form .bpr-reply-form-message-error p {
+  margin: 0;
+  color: #c23527;
+}
+
+.rulax-product-reviews-form .bpr-form-message-error-body,
+.rulax-review-reply-form .bpr-form-message-error-body {
+  display: block;
+}
+
+.rulax-product-reviews-form .bpr-form-actions,
+.rulax-review-reply-form .bpr-form-actions {
+  margin-top: 20px;
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit {
+  border: 1px solid #08f;
+  background: #08f;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 17px;
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit i,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit i,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit i,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit i {
+  margin-right: 5px;
+  display: none;
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit.loading i,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit.loading i,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit.loading i,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit.loading i {
+  display: inline-block;
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit:active,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit:active,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit:active,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit:active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit:active:focus,
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit:focus,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit:active:focus,
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit:focus,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit:active:focus,
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit:focus,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit:active:focus,
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.rulax-product-reviews-form .bpr-form-actions .bpr-button-submit[disabled="disabled"],
+.rulax-product-reviews-form .bpr-form-actions .bpr-reply-button-submit[disabled="disabled"],
+.rulax-review-reply-form .bpr-form-actions .bpr-button-submit[disabled="disabled"],
+.rulax-review-reply-form .bpr-form-actions .bpr-reply-button-submit[disabled="disabled"] {
+  cursor: none;
+}
+
+.rulax-review-reply-form {
+  padding-left: 18px;
+}
+
+.rulax-review-reply-form .bpr-form-contact {
+  padding-right: 110px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.rulax-review-reply-form .bpr-form-contact.english {
+  padding-right: 138px;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple {
+  flex-wrap: nowrap;
+  margin: 0 -5px;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-name,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-email,
+.rulax-review-reply-form .bpr-form-contact .form-group__multiple .bpr-reply-form-contact-phone {
+  padding: 0 5px;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea {
+  min-height: initial;
+  position: relative;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea .bpr-form-actions {
+  display: block;
+  margin: 0;
+  position: absolute;
+  left: calc(100% + 15px);
+  bottom: 0;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group__textarea .bpr-form-actions .bpr-reply-button-submit {
+  height: 45px;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.rulax-review-reply-form .bpr-form-contact .form-group textarea {
+  border: 1px solid #c4cdd5;
+  height: 45px;
+  min-height: 45px;
+  border-radius: 5px;
+  padding: 10px 13px 10px;
+}
+
+.rulax-review-reply-form .bpr-reply-form-review-error {
+  font-size: 13px;
+  color: #c23527;
+}
+
+#rulax-product-reviews-noitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4cdd5;
+  box-sizing: border-box;
+  min-height: 130px;
+}
+
+#rulax-product-reviews-noitem .content {
+  text-align: center;
+  padding: 25px 0;
+}
+
+#rulax-product-reviews-noitem .content p {
+  color: #212b35;
+  margin: 0 0 20px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form {
+  padding: 30px 0 0;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .title-form,
+#rulax-product-reviews-noitem .noitem-bpr-form .review-product-name {
+  display: none;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-contact .form-group__textarea {
+  position: relative;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-contact .form-group__textarea .bpr-form-actions {
+  display: block;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  top: 195px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-contact .bpr-file-attach label {
+  margin-bottom: 4px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-contact .bpr-file-attach .MultiFile-list {
+  padding-right: 140px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-contact .bpr-file-attach .MultiFile-list > .MultiFile-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-actions {
+  display: none;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-review-error {
+  padding-bottom: 32px;
+}
+
+#rulax-product-reviews-noitem .noitem-bpr-form .bpr-form-review-error p {
+  min-height: 18px;
+  margin: 0;
+  color: #c23527;
+}
+
+.simple-pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  padding-right: 16px;
+}
+
+.simple-pagination ul {
+  margin: 0 -5px;
+}
+
+.simple-pagination li {
+  padding: 0 2px;
+  margin: 0;
+}
+
+.simple-pagination li.disabled {
+  display: none;
+}
+
+.simple-pagination li span,
+.simple-pagination li a {
+  margin: 0;
+  background: #fff;
+  border: 1px solid #212b35;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #212b35;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.simple-pagination li span.prev,
+.simple-pagination li a.prev {
+  font-family: "FontAwesome";
+  font-size: 18px;
+}
+
+.simple-pagination li span.prev:before,
+.simple-pagination li a.prev:before {
+  content: "";
+}
+
+.simple-pagination li span.next,
+.simple-pagination li a.next {
+  font-family: "FontAwesome";
+  font-size: 18px;
+}
+
+.simple-pagination li span.next:before,
+.simple-pagination li a.next:before {
+  content: "";
+}
+
+.simple-pagination li span.current,
+.simple-pagination li a.current {
+  background: #fff;
+  box-shadow: none;
+}
+
+#rulax-product-reviews {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  background: #fff;
+  box-sizing: border-box;
+  color: #212b35;
+}
+
+#rulax-product-reviews .hide {
+  display: none !important;
+}
+
+#rulax-product-reviews .icon-warning,
+#rulax-product-reviews .icon-useful {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+#rulax-product-reviews .icon-warning path:nth-child(1),
+#rulax-product-reviews .icon-useful path:nth-child(1) {
+  fill: #969b9f;
+}
+
+#rulax-product-reviews .icon-warning path:nth-child(2),
+#rulax-product-reviews .icon-useful path:nth-child(2) {
+  fill: #fff;
+}
+
+#rulax-product-reviews .icon-useful path,
+#rulax-product-reviews .icon-useful circle {
+  fill: #969b9f;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary {
+  padding: 38px 33px 28px;
+  border-bottom: 1px solid #c4cdd5;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .summary-filter {
+  display: flex;
+  align-items: start;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action {
+  padding: 0 10px 0 0;
+  text-align: center;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action .bpr-summary-average {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 3px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action .rulax-product-reviews-star {
+  display: flex;
+  line-height: 1;
+  justify-content: center;
+  margin: 0 0 10px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action .rulax-product-reviews-star i {
+  font-size: 20px;
+  font-style: normal;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .rulax-product-reviews-action
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-on-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .rulax-product-reviews-action
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-off-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .rulax-product-reviews-action
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png {
+  position: relative;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .rulax-product-reviews-action
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .rulax-product-reviews-action
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:after {
+  font-family: "FontAwesome";
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  line-height: 1;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action p {
+  margin: 0 0 25px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter h4,
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter p {
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter .list-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter .list-filter.show-filter {
+  display: block;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter label {
+  margin: 0 10px 13px 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter label input {
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter label .checkmark {
+  display: block;
+  min-width: 90px;
+  font-size: 14px;
+  padding: 0 9px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #c4cdd5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  line-height: 36px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form {
+  padding: 19px 0 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .title-form,
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .review-product-name {
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .form-group__textarea {
+  position: relative;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .bpr-form
+  .bpr-form-contact
+  .form-group__textarea
+  .bpr-form-actions {
+  display: block;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  top: 195px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .form-group__multiple {
+  flex-wrap: nowrap;
+  margin: 0 -5px 11px;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .bpr-form
+  .bpr-form-contact
+  .form-group__multiple
+  .bpr-form-contact-name,
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .bpr-form
+  .bpr-form-contact
+  .form-group__multiple
+  .bpr-form-contact-email,
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .bpr-form
+  .bpr-form-contact
+  .form-group__multiple
+  .bpr-form-contact-phone {
+  width: 100%;
+  padding: 0 5px;
+  margin: 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .bpr-file-attach label {
+  margin-bottom: 4px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .bpr-file-attach .MultiFile-list {
+  padding-right: 140px;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-summary
+  .bpr-form
+  .bpr-form-contact
+  .bpr-file-attach
+  .MultiFile-list
+  > .MultiFile-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-actions {
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-review-error {
+  padding-bottom: 32px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-review-error p {
+  min-height: 18px;
+}
+
+#rulax-product-reviews #rulax-product-reviews-sub {
+  border: 1px solid #c4cdd5;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list {
+  padding: 18px 33px 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .no-item {
+  padding: 0 0 18px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  font-size: 16px;
+  min-width: initial;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review {
+  margin: 0 0 22px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 9px;
+  flex-wrap: wrap;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-header .rulax-review-author {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-header .rulax-product-reviews-star {
+  display: initial;
+  line-height: 1;
+  margin-right: 18px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-header .rulax-product-reviews-star i {
+  font-size: 13px;
+  font-style: normal;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-header
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-on-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-header
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-off-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-header
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png {
+  position: relative;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-header
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:before {
+  content: "";
+  font-family: "FontAwesome";
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-header
+  .rulax-product-reviews-star.rulax-product-reviews-heart
+  i.star-half-png:after {
+  font-family: "FontAwesome";
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  line-height: 1;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-body .rulax-review-verified {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-body .rulax-review-verified svg {
+  width: 14px;
+  margin-right: 3px;
+  flex-shrink: 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-body .rulax-review-content-body {
+  word-break: break-word;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-body .rulax-review-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions {
+  margin: 8px 0 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li {
+  margin-right: 22px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li:before,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li:before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background: #969b9f;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: -12px;
+  transform: translateY(-50%);
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li:first-child:before,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li:first-child:before {
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li a,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li a {
+  display: flex;
+  align-items: flex-start;
+  color: inherit;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li a svg,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li a svg {
+  margin-top: 1px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li .rulax-review-time,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li .rulax-review-time {
+  color: #969b9f;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li.rulax-review-useful.is-active,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li.rulax-review-useful a:hover,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li.rulax-review-useful.is-active,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li.rulax-review-useful a:hover {
+  color: #3578e5;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-useful.is-active
+  .icon-useful
+  path,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-useful.is-active
+  .icon-useful
+  circle,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-useful
+  a:hover
+  .icon-useful
+  path,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-useful
+  a:hover
+  .icon-useful
+  circle,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-useful.is-active
+  .icon-useful
+  path,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-useful.is-active
+  .icon-useful
+  circle,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-useful
+  a:hover
+  .icon-useful
+  path,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-useful
+  a:hover
+  .icon-useful
+  circle {
+  fill: #3578e5;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li.rulax-review-reportreview.is-flagged,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li.rulax-review-reportreview a:hover,
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-reportreview.is-flagged,
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-actions ul li.rulax-review-reportreview a:hover {
+  color: #f00;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-reportreview.is-flagged
+  .icon-warning
+  path:nth-child(1),
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-actions
+  ul
+  li.rulax-review-reportreview
+  a:hover
+  .icon-warning
+  path:nth-child(1),
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-reportreview.is-flagged
+  .icon-warning
+  path:nth-child(1),
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-actions
+  ul
+  li.rulax-review-reportreview
+  a:hover
+  .icon-warning
+  path:nth-child(1) {
+  fill: red;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-images {
+  margin: 4px 0 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul {
+  display: flex;
+  align-items: center;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 19px;
+  flex-shrink: 0;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li a {
+  display: block;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li img {
+  height: 90px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: initial;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list {
+  padding: 11px 0 0 18px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list .btn-show-prev {
+  display: block;
+  background: rgba(128, 187, 53, 0.1);
+  color: #08f;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list .btn-show-prev.loading i {
+  display: inline-block;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list .btn-show-prev i {
+  margin-right: 5px;
+  display: none;
+}
+
+#rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list .rulax-review-reply-item {
+  border-left: 3px solid #969b9f;
+  padding-left: 7px;
+  margin: 0 0 15px;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-list
+  .rulax-review-reply-item
+  .rulax-review-reply-author {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 3px;
+  display: flex;
+  align-items: center;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-list
+  .rulax-review-reply-item
+  .rulax-review-reply-author
+  span {
+  margin-right: 7px;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-list
+  .rulax-review-reply-item
+  .rulax-review-reply-author
+  .is-admin {
+  background: #08f;
+  border: 1px solid #08f;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 16px;
+  padding: 0 5px;
+  color: #fff;
+  font-weight: 400;
+  margin-right: 0;
+}
+
+#rulax-product-reviews
+  .rulax-product-reviews-list
+  .rulax-review-reply-list
+  .rulax-review-reply-item
+  .rulax-review-reply-body {
+  margin-bottom: 5px;
+  word-break: break-word;
+}
+
+.jquery-modal-blocker {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+}
+
+.jquerymodal {
+  max-width: 700px;
+  padding: 24px 33px 29px;
+  background: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.jquerymodal .jquerymodal-body {
+  padding: 0;
+  text-align: center;
+  color: #212b35;
+}
+
+.jquerymodal .jquerymodal-body .close-modal {
+  background: none;
+  text-indent: initial;
+  top: -12px;
+  right: -17px;
+  width: 25px;
+  height: 25px;
+}
+
+.jquerymodal .jquerymodal-body .close-modal svg path {
+  fill: #212b35;
+}
+
+.jquerymodal .jquerymodal-content {
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+
+.bpr-success-popup {
+  width: 290px;
+  padding: 25px 30px;
+  font-size: 14px;
+}
+
+.bpr-success-popup b {
+  display: block;
+}
+
+.bpr-success-popup .icon-checked {
+  margin-bottom: 15px;
+}
+
+.bpr-success-popup .icon-checked svg {
+  vertical-align: top;
+  width: 50px;
+}
+
+.bpr-success-popup .icon-checked svg path {
+  fill: #08f;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #rulax-product-reviews .rulax-product-reviews-summary {
+    padding: 20px 15px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list {
+    padding: 18px 15px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .rulax-product-reviews-form .bpr-form-rating {
+    margin: 0 0 10px;
+  }
+
+  .rulax-product-reviews-form .bpr-form-rating .form-group {
+    flex-wrap: wrap;
+  }
+
+  .rulax-product-reviews-form .bpr-form-rating .form-group label {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .rulax-product-reviews-form .bpr-form-rating .form-group .rulax-product-reviews-star {
+    padding-bottom: 5px;
+  }
+
+  .rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-email,
+  .rulax-product-reviews-form .bpr-form-contact .form-group__multiple .bpr-form-contact-phone {
+    width: 100%;
+  }
+
+  .rulax-product-reviews-form .bpr-form-contact .bpr-file-attach label {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label {
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .rulax-product-reviews-form .bpr-form-contact .bpr-file-attach .MultiFile-list .MultiFile-label .MultiFile-preview {
+    height: 80px;
+    max-height: 80px !important;
+  }
+
+  .rulax-review-reply-form {
+    padding-left: 11px;
+  }
+
+  .rulax-review-reply-form form {
+    position: relative;
+    padding-bottom: 45px;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact {
+    padding-right: 0;
+    position: static;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact.english {
+    padding-right: 0;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact .form-group textarea {
+    height: 66px;
+    min-height: 66px;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact .form-group__multiple {
+    flex-wrap: wrap;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact .form-group__textarea {
+    position: static;
+  }
+
+  .rulax-review-reply-form .bpr-form-contact .form-group__textarea .bpr-form-actions {
+    bottom: 0;
+    right: 0;
+    left: auto;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary {
+    padding: 10px 10px 15px;
+    text-align: center;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .summary-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .summary-filter .btn-new-review {
+    display: none;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .summary-filter .btn-new-review.btn-new-review-mobile {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 10px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action .rulax-product-reviews-star {
+    margin: 0 0 5px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-action p {
+    margin: 0 0 15px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter {
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    justify-content: center;
+    width: 180px;
+    z-index: 9;
+    margin: 0 5px 10px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter h4,
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter p {
+    display: block;
+    padding: 0 10px;
+    margin: 0;
+    line-height: 34px;
+    background: #08f;
+    border: 1px solid #08f;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter h4 i,
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter p i {
+    margin-right: 5px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter h4.active,
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter p.active {
+    border-radius: 3px 3px 0 0;
+    background: #fff;
+    border: 1px solid #c4cdd5;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter .list-filter {
+    display: none;
+    background: #fff;
+    border: 1px solid #c4cdd5;
+    position: absolute;
+    top: calc(100% - 1px);
+    width: 180px;
+    right: 0;
+    padding: 8px 8px 4px;
+    text-align: left;
+    border-radius: 0 0 3px 3px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter .list-filter label {
+    margin: 0;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .rulax-product-reviews-filter
+    .list-filter
+    label
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .rulax-product-reviews-filter .list-filter label .checkmark {
+    border: none;
+    padding: 4px 0 4px 23px;
+    line-height: 18px;
+    text-align: left;
+    position: relative;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .rulax-product-reviews-filter
+    .list-filter
+    label
+    .checkmark:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    border: 1px solid #c4cdd5;
+    top: 5px;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .rulax-product-reviews-filter
+    .list-filter
+    label
+    .checkmark:after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #08f;
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    border-radius: 50%;
+    display: none;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .form-group__multiple {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .form-group__multiple
+    .bpr-form-contact-name,
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .form-group__multiple
+    .bpr-form-contact-email,
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .form-group__multiple
+    .bpr-form-contact-phone {
+    margin-bottom: 11px;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .form-group__textarea
+    .bpr-form-actions {
+    display: none;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-contact .bpr-file-attach .MultiFile-list {
+    padding: 0;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .bpr-file-attach
+    .MultiFile-list
+    .MultiFile-label {
+    margin-right: 10px;
+    width: 82px;
+    height: 82px;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-summary
+    .bpr-form
+    .bpr-form-contact
+    .bpr-file-attach
+    .MultiFile-list
+    .MultiFile-label
+    .MultiFile-preview {
+    height: 82px;
+    max-height: 82px !important;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-review-error {
+    padding-bottom: 0;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-review-error p {
+    min-height: initial;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-summary .bpr-form .bpr-form-actions {
+    margin-top: 11px;
+    display: block;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list {
+    padding: 15px 10px 0;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-header {
+    display: block;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-header .rulax-review-verified {
+    display: initial;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-header .rulax-review-verified svg {
+    vertical-align: top;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul {
+    flex-wrap: wrap;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li {
+    margin-right: 9px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-actions ul li:not(:first-child) {
+    margin-left: 13px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li {
+    width: 82px;
+    height: 82px;
+    margin-right: 10px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li a {
+    width: 82px;
+    height: 82px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-images ul li a img {
+    height: 82px;
+  }
+
+  #rulax-product-reviews .rulax-product-reviews-list .rulax-review-reply-list {
+    padding-left: 10px;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-list
+    .rulax-review-reply-list
+    .rulax-review-reply-item
+    .rulax-review-reply-author {
+    flex-wrap: wrap;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-list
+    .rulax-review-reply-list
+    .rulax-review-reply-item
+    .rulax-review-reply-actions
+    ul {
+    flex-wrap: wrap;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-list
+    .rulax-review-reply-list
+    .rulax-review-reply-item
+    .rulax-review-reply-actions
+    ul
+    li {
+    margin-right: 9px;
+  }
+
+  #rulax-product-reviews
+    .rulax-product-reviews-list
+    .rulax-review-reply-list
+    .rulax-review-reply-item
+    .rulax-review-reply-actions
+    ul
+    li:not(:first-child) {
+    margin-left: 13px;
+  }
+
+  .jquery-modal-blocker {
+    padding: 15px;
+  }
+
+  .jquerymodal {
+    width: auto;
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .jquerymodal .jquerymodal-body .close-modal {
+    right: -8px;
+  }
+
+  .simple-pagination {
+    padding-top: 10px;
+  }
+}

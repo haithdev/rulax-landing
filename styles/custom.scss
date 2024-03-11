@@ -1,0 +1,86 @@
+.button_actions .btn.buynow span:first-child {
+  position: relative;
+  padding-left: 30px;
+}
+
+.button_actions .btn.buynow span:first-child:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.product-policises {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-gallery-svg {
+  height: 48px !important;
+  width: 36px !important;
+}
+.image-gallery-fullscreen-button {
+  .image-gallery-svg {
+    height: 20px !important;
+    width: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-gallery-svg {
+    height: 72px !important;
+    width: 36px !important;
+  }
+  .image-gallery-fullscreen-button {
+    .image-gallery-svg {
+      height: 30px !important;
+      width: 30px !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .image-gallery-svg {
+    height: 48px !important;
+    width: 24px !important;
+  }
+  .image-gallery-fullscreen-button {
+    .image-gallery-svg {
+      height: 30px !important;
+      width: 30px !important;
+    }
+  }
+}
+
+.transition-content {
+  max-height: none;
+  transition: max-height 1s ease-in-out; /* Thời gian và kiểu chuyển động có thể điều chỉnh */
+  overflow: hidden;
+}
+
+.collapsed {
+  max-height: 200px; /* Hoặc bất kỳ giá trị nào bạn muốn */
+}
+
+.invalid-field {
+  color: var(--price-color);
+}
+
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+
+.star-on-png:before {
+  content: "⭐";
+}
