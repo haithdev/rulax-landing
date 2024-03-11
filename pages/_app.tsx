@@ -4,8 +4,6 @@ import { wrapper } from "redux/store";
 import DefaultLayout from "layout/DefaultLayout";
 import "../styles/styles.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import LoadingScreen from "components/LoadingScreen";
