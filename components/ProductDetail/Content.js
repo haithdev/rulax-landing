@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
 import { useCount } from "../../context/CountProductContext";
 import useToggleDialog from "../../hooks/todos/useToggleDialog";
@@ -168,7 +169,10 @@ const Content = (props) => {
               <div className="flashsale__bottom px-0">
                 <div className="flashsale__progressbar  style2 ">
                   <div className="flashsale__label">
-                    <img src="https://bizweb.dktcdn.net/100/475/818/themes/893130/assets/fire-icon.svg?1704711517820" />{" "}
+                    <img
+                      src="https://bizweb.dktcdn.net/100/475/818/themes/893130/assets/fire-icon.svg?1704711517820"
+                      alt="sap chay hang"
+                    />{" "}
                     Sắp cháy hàng
                   </div>
 

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import {
   Button,
@@ -186,7 +187,10 @@ const CheckoutModal = ({ toggle = () => {}, modal = false }) => {
                         style={{ borderBottom: "1px solid #f2f2f2" }}
                       >
                         <Col>
-                          <img src="static/assets/img/product/avt.jpg" />
+                          <img
+                            src="static/assets/img/product/avt.jpg"
+                            alt="Avatar"
+                          />
                         </Col>
                         <Col>
                           <p>
